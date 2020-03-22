@@ -285,6 +285,7 @@ button:hover {
 }
 
 .imagecontainer {
+  max-height: 800px;
 }
 
 #randomimage {
