@@ -2,6 +2,13 @@
   font-family: InputSans;
   src: url("input.ttf");
 }
+
+@font-face {
+  font-family: Prisma;
+  src: url("Prisma.ttf");
+}
+
+
 html {
   background-color: white;
   font-family: InputSans, sans-serif;
