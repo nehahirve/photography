@@ -59,7 +59,7 @@ a {
 
 #grid {
   max-width: 2000px;
-  display: flex;
+  display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
 
