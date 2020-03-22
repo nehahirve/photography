@@ -59,7 +59,7 @@ a {
 
 #grid {
   max-width: 1500px;
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(12, 1fr);
 }
 
@@ -187,7 +187,7 @@ h1{
   margin: 5px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .flexbox {
     flex-direction: column;
   }
