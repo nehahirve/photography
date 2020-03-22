@@ -284,8 +284,8 @@ button:hover {
   background-color: currentColor;
 }
 
-.imagecontainer {
-  max-height: 800px;
+#randomimage {
+  max-width: 700px;
 }
 
 #randomimage {
