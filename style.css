@@ -284,12 +284,8 @@ button:hover {
   background-color: currentColor;
 }
 
-#randomimage {
-  width: 700px;
-}
 
 #randomimage {
   margin-top: 10px;
-  width: 100%;
-  height: auto;
+  height: 100%;
 }
