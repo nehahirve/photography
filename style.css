@@ -1,0 +1,287 @@
+@font-face {
+  font-family: InputSans;
+  src: url("input.ttf");
+}
+html {
+  background-color: white;
+  font-family: InputSans, sans-serif;
+
+}
+
+p {
+  font-size: 0.8em;
+  background-color:;
+}
+
+
+/*infinite colour loop*/
+
+nav,input, textarea, .embeddedlink, button, .currentpage, #current {
+  color: #f6019d;
+  animation: 60s coloring infinite;
+
+}
+
+@keyframes coloring {
+0%    {fill: #f6019d; color:#f6019d;}
+17.5% {fill: #d40078; color:#d40078;}
+25%   {fill: #9700cc; color:#9700cc;}
+32.5% {fill: #035ee8; color:#035ee8;}
+50%   {fill: #2de2e6; color:#2de2e6;}
+67.5% {fill: #035ee8; color:#035ee8;}
+75%   {fill: #9700cc; color:#9700cc;}
+82.5% {fill: #d40078; color:#d40078;}
+100%  {fill: #f6019d; color:#f6019d;}
+}
+
+/*set a sticky navigation container
+for some reason can't style directly the nav element*/
+
+.sticky {
+  position: sticky;
+  top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+/*grid styling*/
+
+#grid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.textbox {
+  max-width: 600px;
+}
+
+.griditem {
+  padding: 10px;
+}
+
+#index {
+  background-color:;
+  height: 100%;
+  margin-top: 30px;
+  grid-column: 1/2;
+}
+
+
+#exhibit {
+  background-color:;
+  height: 100%;
+  grid-column: 2/13;
+  margin-top: 20px;
+  overflow: scroll;
+}
+
+.iframecontainer {
+  min-width: 240px;
+  max-width: 360px;
+}
+
+
+
+/*logo styling and animation*/
+.logo {
+  width: 150px;
+}
+
+.logo svg {
+  animation: 60s coloring infinite;
+}
+
+
+
+/*email styling*/
+.email a {
+  text-decoration: none;
+  font-size: 0.66em;
+  color: black;
+}
+
+/*nav styling*/
+
+.navigation ul {
+  padding: none;
+  margin: none;
+  list-style: none;
+  padding: 0;
+}
+
+ul .subnav {
+  visibility: hidden;
+  display: none;
+}
+
+
+
+.photo {
+  color: black;
+}
+
+.photo:hover {
+  color: currentColor;
+}
+
+#primary_nav li:hover > ul, .subnav:hover {
+  visibility: visible;
+  display: block;
+  font-size: 0.75em;
+  margin-left: 15px;
+  color: currentColor;
+}
+
+.cv {
+  padding-top:10px;
+}
+
+.cv ul, .informationbox ul {
+  list-style: none;
+  font-size: 0.73em;
+  margin: none;
+  display: inline;
+
+}
+
+.informationbox {
+  min-width: 300px;
+  padding: 20px;
+
+}
+
+
+
+h1{
+  display: inline;
+  text-decoration: none;
+  font-size: 0.73em;
+  font-weight:bold;
+  border: 1px dashed;
+}
+.footnote {
+  font-size: 0.7em;
+}
+
+.flexbox {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.flexbox img {
+  height: 500px;
+  margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .flexbox {
+    flex-direction: column;
+  }
+  .flexbox img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+/*social media icons style and behaviour*/
+
+
+.icon {
+  width: 20px;
+  display: inline-block;
+  fill: black;
+}
+
+.icon:hover {
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+.icon:hover .st0 {
+  stroke: currentColor;
+}
+
+.icon:hover .st1 {
+  stroke: currentColor;
+}
+
+.icon:hover .st2 {
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/*Link behaviour*/
+a:hover {
+  color: currentColor;
+}
+
+.visible ul {
+  display: block;
+  visibility: visible;
+  font-size: 0.75em;
+  margin-left: 15px;
+}
+
+.currentpage, #current {
+  color: currentColor;
+  text-decoration: line-through;
+}
+
+
+/*FORM STYLING*/
+
+.form {
+  max-width: 700px;
+}
+
+.form input, .form textarea {
+  border-style: dashed;
+  border-color: currentColor;
+  border-width: 1px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+
+.form textarea {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+::-webkit-resizer {
+  display: none;
+}
+
+.buttontext {
+  color: black;
+}
+
+button {
+  border: none;
+  font-family: InputSans, sans-serif;
+  border: 1px dashed;
+  padding:0px;
+}
+
+button:hover {
+  background-color: currentColor;
+}
+
+.imagecontainer {
+}
+
+#randomimage {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
