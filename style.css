@@ -58,7 +58,7 @@ a {
 /*grid styling*/
 
 #grid {
-  max-width: 1500px;
+  max-width: 2000px;
   display: flex;
   grid-template-columns: repeat(12, 1fr);
 }
