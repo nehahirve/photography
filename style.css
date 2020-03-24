@@ -1,11 +1,11 @@
 @font-face {
   font-family: InputSans;
-  src: url("input.ttf");
+  src: url("fonts/InputSans/InputSans-ExtraLight.ttf");
 }
 
 @font-face {
   font-family: Prisma;
-  src: url("Prisma.ttf");
+  src: url("fonts/Prisma.ttf");
 }
 
 
