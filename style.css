@@ -175,8 +175,7 @@ h1{
 
 .flexbox {
   overflow-x: auto;
-  max-height: 400px;
-  min-height: 100px;
+  max-height: 500px;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
