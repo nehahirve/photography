@@ -80,11 +80,9 @@ a {
 
 
 #exhibit {
-  background-color:;
-  height: 100%;
   grid-column: 2/13;
   margin-top: 20px;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .iframecontainer {
@@ -176,14 +174,17 @@ h1{
 }
 
 .flexbox {
-  height: 500px;
+  overflow-x: auto;
+  max-height: 400px;
+  min-height: 100px;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
 }
 
 .flexbox img {
-  height: 500px;
+  max-height: 400px;
+  min-height: 100px;
   margin: 5px;
 }
 
@@ -287,5 +288,5 @@ button:hover {
 
 #randomimage {
   margin-top: 10px;
-  height: 500px;
+  height: 400px;
 }
