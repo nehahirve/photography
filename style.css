@@ -182,8 +182,7 @@ h1{
 }
 
 .flexbox img {
-  max-height: 400px;
-  min-height: 100px;
+  height: 400px;
   margin: 5px;
 }
 
@@ -192,7 +191,7 @@ h1{
     flex-direction: column;
   }
   .flexbox img {
-    width: 300px;
+    width: 250px;
     height: auto;
   }
 }
