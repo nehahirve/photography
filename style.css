@@ -23,7 +23,7 @@ p {
 
 /*infinite colour loop*/
 
-nav,input, textarea, .embeddedlink, button, .currentpage, #current {
+nav,input, textarea, .embeddedlink, button, .currentpage, #current, #hamburger {
   color: #f6019d;
   animation: 60s coloring infinite;
 
@@ -186,15 +186,69 @@ h1{
   margin: 5px;
 }
 
+#hamburger {
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: prisma;
+  background-color: white;
+  z-index: 10;
+  position: fixed;
+
+}
+
+#hamburger a {
+  align-content: center;
+  color: currentColor;
+  font-size: 2em;
+}
+
 @media screen and (max-width: 600px) {
+
+
   .flexbox {
+    width: 100%;
     flex-direction: column;
+    margin-left: 0;
+    float: left;
+
+  }
+
+  #exhibit {
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
   }
   .flexbox img {
-    width: 250px;
+    width: 100%;
     height: auto;
   }
+
+  #hamburger {
+    display: block;
+  }
+
+  #index {
+    max-width: 600px;
+    position: relative;
+    z-index: 3;
+    margin: auto;
+    margin-top: 40px;
+    float: right;
+    min-width: 500px;
+    align-items: center;
+    display: none;
+    text-align: center;
+  }
+  .logo {
+    margin: auto;
+  }
 }
+
+
+
 
 
 /*social media icons style and behaviour*/
