@@ -55,6 +55,7 @@ a {
 }
 
 
+
 /*grid styling*/
 
 #grid {
@@ -90,6 +91,23 @@ a {
   max-width: 360px;
 }
 
+#hamburger {
+  display: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-family: prisma;
+  background-color: white;
+  z-index: 10;
+  position: fixed;
+
+}
+
+#hamburger a {
+  align-content: center;
+  color: currentColor;
+  font-size: 2em;
+}
 
 
 /*logo styling and animation*/
@@ -186,23 +204,7 @@ h1{
   margin: 5px;
 }
 
-#hamburger {
-  display: none;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  font-family: prisma;
-  background-color: white;
-  z-index: 10;
-  position: fixed;
 
-}
-
-#hamburger a {
-  align-content: center;
-  color: currentColor;
-  font-size: 2em;
-}
 
 /*social media icons style and behaviour*/
 
