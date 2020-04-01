@@ -140,7 +140,7 @@ ul .subnav {
   color: currentColor;
 }
 
-#primary_nav li:active > ul, .subnav:hover {
+#primary_nav li:active > ul, .subnav:active {
   visibility: visible;
   display: block;
   font-size: 0.75em;
@@ -210,12 +210,6 @@ h1{
   color: currentColor;
   font-size: 2em;
 }
-
-
-
-
-
-
 
 /*social media icons style and behaviour*/
 
@@ -350,5 +344,6 @@ button:hover {
   #randomimage {
     max-width: 90vw;
     height: auto;
+    margin: auto;
   }
 }
