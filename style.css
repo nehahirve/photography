@@ -98,7 +98,8 @@ a {
 }
 
 .logo svg {
-  animation: 60s coloring infinite;
+  color: currentColor;
+
 }
 
 
