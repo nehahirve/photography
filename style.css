@@ -211,42 +211,7 @@ h1{
   font-size: 2em;
 }
 
-@media screen and (max-width: 600px) {
-  #exhibit {
-    display: block;
-    position: fixed;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-  }
 
-  .flexbox {
-    max-width: 100vh;
-    flex-direction: column;
-    margin-left: 0;
-    max-height: 100vh;
-
-  }
-
-  .flexbox img {
-    width: 100%;
-    height: auto;
-  }
-
-  #hamburger {
-    display: block;
-  }
-  #index {
-    height: 100vh;
-    width: 90vw;
-    margin-top: 40px;
-    display: none;
-    text-align: center;
-  }
-  .logo {
-    margin: auto;
-  }
-}
 
 
 
@@ -342,5 +307,48 @@ button:hover {
 #randomimage {
   margin-top: 10px;
   height: 400px;
-  max-width: 90vw;
+}
+
+@media screen and (max-width: 600px) {
+  #exhibit {
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+
+  .flexbox {
+    max-width: 100vh;
+    flex-direction: column;
+    margin-left: 0;
+    max-height: 100vh;
+
+  }
+
+  .flexbox img {
+    width: 100%;
+    height: auto;
+  }
+
+  #hamburger {
+    display: block;
+  }
+  #index {
+    height: 100vh;
+    width: 90vw;
+    margin-top: 40px;
+    display: none;
+    text-align: center;
+  }
+  .navigation a {
+    margin: 0.9em;
+  }
+  .logo {
+    margin: auto;
+  }
+  #randomimage {
+    max-width: 90vw;
+    height: auto;
+  }
 }
