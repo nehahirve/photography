@@ -140,14 +140,6 @@ ul .subnav {
   color: currentColor;
 }
 
-#primary_nav li:active > ul, .subnav:active {
-  visibility: visible;
-  display: block;
-  font-size: 0.75em;
-  margin-left: 15px;
-  color: currentColor;
-}
-
 
 .cv {
   padding-top:10px;
@@ -304,12 +296,17 @@ button:hover {
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
   #exhibit {
     display: block;
     position: fixed;
     margin: 0;
     padding: 0;
     height: 100vh;
+    mqx-width: 100vh;
+
   }
 
   .flexbox {
@@ -317,12 +314,12 @@ button:hover {
     flex-direction: column;
     margin-left: 0;
     max-height: 100vh;
-
   }
 
   .flexbox img {
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin-left: 0;
   }
 
   #hamburger {
@@ -342,8 +339,21 @@ button:hover {
     margin: auto;
   }
   #randomimage {
-    max-width: 90vw;
+    max-width: 100vw;
     height: auto;
     margin: auto;
+  }
+  #primary_nav li > ul, .subnav:hover {
+    visibility: visible;
+    display: block;
+    font-size: 0.75em;
+    margin-left: 15px;
+    color: currentColor;
+  }
+  #lastimage {
+    margin-bottom: 100px;
+  }
+  #firstimage {
+    margin-top: 50px;
   }
 }
