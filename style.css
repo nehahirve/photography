@@ -360,3 +360,7 @@ button:hover {
     margin-top: 50px;
   }
 }
+
+#thankyoutext {
+  font-size: 0.7em;
+}
