@@ -366,9 +366,9 @@ button:hover {
 }
 
 #covid {
-  font-size: 0.7em;
+  font-size: 0.75em;
 }
 
 .subnav a {
-  font-size: 0.7em;
+  font-size: 0.8em !important;
 }
