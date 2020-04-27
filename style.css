@@ -364,10 +364,11 @@ button:hover {
 #thankyoutext {
   font-size: 0.7em;
 }
+
 #covid {
-  font-size: 0.75em;
+  font-size: 0.7em;
 }
 
 .subnav a {
-  font-size: 0.8em !important;
+  font-size: 0.7em;
 }
