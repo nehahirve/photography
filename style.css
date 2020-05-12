@@ -17,7 +17,6 @@ html {
 
 p {
   font-size: 0.8em;
-  background-color:;
 }
 
 
@@ -26,8 +25,15 @@ p {
 nav,input, textarea, .embeddedlink, button, .currentpage, #current, #hamburger {
   color: #f6019d;
   animation: 60s coloring infinite;
-
 }
+
+p::selection {
+
+    color: #f6019d;
+    animation: 60s coloring infinite;
+    color: white;
+}
+
 
 @keyframes coloring {
 0%    {fill: #f6019d; color:#f6019d;}
@@ -41,6 +47,9 @@ nav,input, textarea, .embeddedlink, button, .currentpage, #current, #hamburger {
 100%  {fill: #f6019d; color:#f6019d;}
 }
 
+p::selection {
+
+}
 /*set a sticky navigation container
 for some reason can't style directly the nav element*/
 
@@ -291,7 +300,6 @@ button {
 button:hover {
   background-color: currentColor;
 }
-
 
 #randomimage {
   margin-top: 10px;
