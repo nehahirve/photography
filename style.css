@@ -200,14 +200,16 @@ h1{
 
 .flexbox {
   overflow-x: auto;
-  max-height: 500px;
+  max-height: 80vh;
+  min-height: 400px;
   display: flex;
   flex-direction: row;
   margin-top: 10px;
 }
 
 .flexbox img {
-  height: 400px;
+  min-height: 400px;
+  max-height: 80vh;
   margin: 5px;
 }
 
