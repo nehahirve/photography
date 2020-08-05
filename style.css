@@ -207,9 +207,9 @@ h1{
   margin-top: 10px;
 }
 
-.flexbox img {
-  min-height: 400px;
-  max-height: 80vh;
+.flexbox img {;
+  height: 80vh;
+  width: auto;
   margin: 5px;
 }
 
